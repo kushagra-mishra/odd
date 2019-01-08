@@ -10,7 +10,7 @@ class pow
         int k=sc.nextInt();
         for(int i=n;i<=k;i++)
         {
-            if(i%2==0)
+            if(i%2!=0)
             System.out.print(i+" ");
         }
         
